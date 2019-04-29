@@ -22,7 +22,7 @@ environment { workdir = '/var/tmp/'}
                 }
                 stage('Parallel stage 2'){
                     steps{
-                        echo "Parallel stage 2 is running now..And also Jenkins service host ip address is: ${JENKINS_SERVICE_HOST}"
+                        echo "Parallel stage 2 is running now...And also Jenkins service host ip address is: ${JENKINS_SERVICE_HOST}"
                     }
                 }
             }
